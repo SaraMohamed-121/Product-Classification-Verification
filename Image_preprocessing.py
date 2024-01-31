@@ -44,7 +44,6 @@ def augment_images_in_folder(folder_path):
 base_folder = 'Data\\Product Classification'
 background_image = cv2.imread('background.jpg')
 
-
 for folder_number in range(1, 21):
     product_folder = os.path.join(base_folder, str(folder_number), 'Train')
 
